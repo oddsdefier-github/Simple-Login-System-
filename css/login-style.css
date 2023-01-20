@@ -1,0 +1,114 @@
+
+.login {
+    background-color: #F3EFE0;
+    font-family: 'Satoshi';
+}
+
+.header {
+    margin-top: 2.5vh;
+    display: flex;
+    gap: calc(100vw - 40vw);
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header h1 {
+    font-family: 'Bebas Neue';
+    color: #434242;
+    float: left;
+}
+
+/* button on top-right */
+.signup {
+    border-radius: 0.55rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: #434242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+.signup:hover {
+    transform: scale(1.08);
+}
+.signup a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #F3EFE0;
+    font-size: 0.85rem;
+}
+.signup a:hover {
+    color: #c7c7c7;
+}
+
+.error {
+    margin-bottom: 1.5rem;
+}
+.login-card {
+    background-color: #434242;
+    color: #F3EFE0;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    width: 22rem;
+    height: auto;
+    border-radius: 1rem;
+    font-family: 'Satoshi';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login-card-header {
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+.login-card h1 {
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    font-weight: 450;
+}
+.login-card p {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.login-input-field {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    border-radius: 0.4rem;
+    background-color: #898989;
+    width: 85%;
+    height: 2.5rem;
+    letter-spacing: 0;
+}
+.login-input-field input {
+    font-size: 0.9rem;
+    color: #F3EFE0;
+}
+.login-input-field input::placeholder {
+    color: #d7d6d2;
+}
+.login-input-field i {
+    color: #F3EFE0;
+    font-size: 1rem;
+}
+.login-btn {
+    width: 89%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: #F3EFE0;
+    transition: 0.25s ease-in;
+    
+}
+.login-btn:hover {
+    background-color: #7e7e7e;
+    transform: scale(1.05);
+    
+}
+.login-btn button:hover {
+    color: #F3EFE0;
+}

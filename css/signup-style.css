@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline:  1px solid green; */
+}
+.signup {
+        background-color: #434242;
+        font-family: 'Satoshi';
+        color: #F3EFE0;
+}
+
+.header {
+    margin-top: 2.5vh;
+    display: flex;
+    gap: calc(100vw - 40vw);
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header h1 {
+    font-family: 'Bebas Neue';
+    color: #F3EFE0;
+    font-weight: 470;
+    float: left;
+}
+/* button on top-right */
+.login {
+    border-radius: 0.55rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    background-color: #F3EFE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+.login:hover {
+    transform: scale(1.08);
+}
+.login a {
+    text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #222222;
+    font-size: 0.85rem;
+}
+.login a:hover {
+    color: #8a8a8a;
+}
+
+.sign-up-card {
+    background-color: #F3EFE0;
+    color: #434242;
+    padding: 1.5rem;
+    padding-bottom: 3rem;
+    width: 22rem;
+    height: auto;
+    border-radius: 1rem;
+    font-family: 'Satoshi';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sign-up-card-header {
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+.sign-up-card h1 {
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    font-weight: 450;
+}
+.sign-up-card p {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.sign-up-field input {
+    color: #F3EFE0;
+    background-color: #606060;
+    padding-left: 0.65rem;
+    width: 95%;
+    font-size: 0.925rem;
+    height: 2.7rem;
+    border-radius: 0.5rem;
+}
+.sign-up-field input::placeholder {
+    color: #F3EFE0;
+    font-size: 0.925rem;
+}
+.sign-up-field {
+    margin-bottom: 1rem;
+    width: 85.5%;
+    height: auto;
+    letter-spacing: 0;
+}
+.sign-up-btn {
+    width: 85.5%;
+    height: 2.55rem;
+    border-radius: 0.5rem;
+    background-color: #434242;
+    color: #F3EFE0;
+    transition: 0.25s ease-in;
+}
+.sign-up-btn button {
+    color: #F3EFE0;
+    z-index: 2;
+}
+
+.sign-up-btn:hover {
+    background-color: #a9a8a8;
+    
+}
+.sign-up-btn button:hover {
+    color: #222222;
+}
